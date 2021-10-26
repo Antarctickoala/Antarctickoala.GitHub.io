@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://antarctickoala.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-10-26T05:20:32.930Z</updated>
+    <title>Koala&apos;s Blog</title>
+    <updated>2021-10-26T05:26:43.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://antarctickoala.github.io"/>
     <link rel="self" href="https://antarctickoala.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>一个浅尝辄止的混子</subtitle>
     <logo>https://antarctickoala.github.io/images/avatar.png</logo>
     <icon>https://antarctickoala.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, Koala&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[New article]]></title>
         <id>https://antarctickoala.github.io/post/new-article/</id>
