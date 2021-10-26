@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://antarctickoala.github.io/favicon.ico?v=1635250846541">
+<link rel="shortcut icon" href="https://antarctickoala.github.io/favicon.ico?v=1635251410668">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://antarctickoala.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://antarctickoala.github.io">
-        <img class="avatar" src="https://antarctickoala.github.io/images/avatar.png?v=1635250846541" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://antarctickoala.github.io/images/avatar.png?v=1635251410668" alt="" width="32px" height="32px">
       </a>
       <a href="https://antarctickoala.github.io">
         <h1 class="site-title">Koala&#39;s Blog</h1>
@@ -160,7 +160,8 @@ target_link_libraries(curses_test ${S_LIBRARY})
 <figure data-type="image" tabindex="11"><img src="https://raw.githubusercontent.com/Antarctickoala/myBlogPcs/main/img/20211026144440.png" alt="" loading="lazy"></figure>
 <p>在 PDCurses-3.8\demos 文件夹下，有很多测试例程，可以把代码复制到 main.c 中测试效果。</p>
 <h3 id="4不编译直接使用源文件">4.不编译直接使用源文件</h3>
-<p>事实上，我们可以不事先编译下载好的源文件。讲 PDCurses-3.8 文件夹直接放在我们的工程目录下。如图，我们新建了一个叫 PDCurse_include_src 的工程~~(原本是想要命名为 PDCurses_include_src 的，结果创建工程时少打了一个's'，有点点不规范)~~。重命名 PDCurses-3.8 为 PDCurses_3.8_src 并且删去了其中大多数文件夹(这不是必须的，但是多数文件夹中的文件是我们用不到的)。将 PDCurses_3.8_src 文件夹放入工程的根目录下。</p>
+<p>事实上，我们可以不事先编译下载好的源文件。将 PDCurses-3.8 文件夹直接放在我们的工程目录下。这么做有一个巨大的好处，当我们引用某个函数但对其参数或者行为不太清楚时，可以随时跳转到源文件中查看。</p>
+<p>如图，我们新建了一个叫 PDCurse_include_src 的工程~~(原本是想要命名为 PDCurses_include_src 的，结果创建工程时少打了一个's'，有点点不规范)~~。重命名 PDCurses-3.8 为 PDCurses_3.8_src 并且删去了其中大多数文件夹(这不是必须的，但是多数文件夹中的文件是我们用不到的)。将 PDCurses_3.8_src 文件夹放入工程的根目录下。</p>
 <figure data-type="image" tabindex="12"><img src="https://raw.githubusercontent.com/Antarctickoala/myBlogPcs/main/img/20211026200339.png" alt="" loading="lazy"></figure>
 <p>重点是编辑CMakeLists.txt, 这里我们将所有可能用得上的 .c 文件全部写进 add_executable 中，这可能会有些繁琐，遇到类似的情况，我们可以用程序遍历.c文件并且生成这些字符串。</p>
 <pre><code class="language-Cmake">cmake_minimum_required(VERSION 3.20)
