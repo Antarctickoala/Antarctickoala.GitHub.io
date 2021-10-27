@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://antarctickoala.github.io</id>
     <title>Koala&apos;s Blog</title>
-    <updated>2021-10-26T12:30:13.975Z</updated>
+    <updated>2021-10-27T03:46:27.378Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://antarctickoala.github.io"/>
     <link rel="self" href="https://antarctickoala.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://antarctickoala.github.io/images/avatar.png</logo>
     <icon>https://antarctickoala.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Koala&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[试一下可不可以不用图床]]></title>
+        <id>https://antarctickoala.github.io/post/shi-yi-xia-ke-bu-ke-yi-bu-yong-tu-chuang/</id>
+        <link href="https://antarctickoala.github.io/post/shi-yi-xia-ke-bu-ke-yi-bu-yong-tu-chuang/">
+        </link>
+        <updated>2021-10-27T03:45:32.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://antarctickoala.github.io/post-images/1635306368528.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在Clion中使用PDCurses]]></title>
         <id>https://antarctickoala.github.io/post/zai-clion-zhong-shi-yong-pdcurses/</id>
